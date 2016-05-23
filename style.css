@@ -28,7 +28,6 @@ h1 {
   .clear {
     clear: both;
   }
-
   /* clearfix */
 
   .group:before,
@@ -74,4 +73,11 @@ h1 {
   .store li img {
     height: auto;
     width: 150px;
+  }
+  .logo {
+    text-indent: -9999px;
+    background: url(logo.png);
+    display: block;
+    height: 75px;
+    width: 250px;
   }
