@@ -1,0 +1,96 @@
+body {
+    color: #4b4648;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 14px;
+  }
+.content {
+    border: 1px solid #cac3c6;
+    margin: 0 auto;
+    padding: 20px;
+    width: 260px;
+  }
+h1 {
+    color: #6d9fac;
+    font-size: 22px;
+    text-align: center;
+  }
+  nav li {
+    float: left;
+  }
+  aside {
+    float: right;
+    width: 120px;
+  }
+  article {
+    float: left;
+    width: 120px;
+  }
+  .clear {
+    clear: both;
+  }
+  /* clearfix */
+
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1;
+  }
+  .home a {
+    color: #c09e79;
+  }
+  article .button {
+    color: #fff;
+  }
+  footer {
+    position: relative;
+  }
+  .copyright {
+    width: 120px;
+  }
+  .newsletter {
+    z-index: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+.wovenwonder {
+    background: url(wovenwonder.jpg) no-repeat;
+    border: 2px solid #c5c9cf;
+    height: 150px;
+    width: 150px;
+  }
+  .store li {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+  }
+  .store li img {
+    height: auto;
+    width: 150px;
+  }
+  .logo {
+    text-indent: -9999px;
+    background: url(logo.png);
+    display: block;
+    height: 75px;
+    width: 250px;
+  }
+  .logo {
+    background: url(logo3.png);
+    display: block;
+    height: 75px;
+    text-indent: -9999px;
+    width: 250px;
+  }
+  .logo:hover, .logo:focus {
+    background-position: 0 -75px;
+  }
+  .logo:active {
+    background-position: 0 -150px;
+  }
