@@ -60,3 +60,9 @@ h1 {
     bottom: 0;
     width: 100%;
   }
+.wovenwonder {
+    background: url(wovenwonder.jpg) no-repeat;
+    border: 2px solid #c5c9cf;
+    height: 150px;
+    width: 150px;
+  }
