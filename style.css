@@ -8,6 +8,15 @@ h1 {
     font-size: 22px;
     text-align: center;
   }
+.hours {
+  text-align: center;
+}
+.wovenwonder article {
+  text-align: center;
+}
+.content-home header {
+  text-align: center;
+}
   nav li {
     float: left;
     text-align: center;
