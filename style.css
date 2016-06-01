@@ -3,12 +3,6 @@ body {
     font-family: tahoma, arial, sans-serif;
     font-size: 14px;
   }
-.content {
-    border: 1px solid #cac3c6;
-    margin: 0 auto;
-    padding: 20px;
-    width: 260px;
-  }
 h1 {
     color: #6d9fac;
     font-size: 22px;
@@ -16,20 +10,38 @@ h1 {
   }
   nav li {
     float: left;
+    text-align: center;
+    margin: 0 50px 0 50px;
   }
   aside {
     float: right;
     width: 120px;
   }
+  /*
   article {
     float: left;
     width: 120px;
   }
+  p:first-child {
+    font-style: italic;
+    color:  #999;
+  }
+  p:before {
+    content: ->;
+    margin-right: 5px;
+  }
+  .hours li:nth-child(4n+1) {
+    background-color: #c5c9cf;
+  }
+  .content {
+    border: 1px solid #cac3c6;
+    margin: 0 auto;
+    padding: 20px;
+    width: 260px;
+  }
   .clear {
     clear: both;
   }
-  /* clearfix */
-
   .group:before,
   .group:after {
     content: "";
@@ -93,4 +105,4 @@ h1 {
   }
   .logo:active {
     background-position: 0 -150px;
-  }
+  }*/
